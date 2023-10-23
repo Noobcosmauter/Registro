@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  form {
+    width: 300px;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.Registro{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black;
+  margin-top: -20%;
+  margin-left: 34%;
+}
+
+
+
+  /*--------NOME--COMPLETO--------*/
+.nomeContainer{
+  padding: 1px;
+  margin-top: 0%;
+  margin-left: -23%;
+}
+  .nome {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .nomeCompleto {
+    width: 120%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+/*--------EMAIL--------*/
+
+.emailContainer{
+  
+  padding: 1px;
+  margin-top: 0%;
+  margin-left: -23%;
+}
+  .email {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .emailCompleto {
+    width: 120%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+/*--------RG--------*/
+  .RGContainer{
+    padding: 1px;
+    margin-top: 0%;
+    margin-left: -23%;
+  }
+  .RG {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .RGCompleto {
+    width: 56%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    }
+
+/*--------CPF--------*/
+  .CPFContainer{   
+    padding: 1px;
+    margin-top: -25%;
+    margin-left: 55%;
+  }
+  .CPF {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .CPFCompleto {
+    width: 155%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+  
+/*--------Celular--------*/
+  .celularContainer{
+    padding: 1px;
+    margin-top: 0%;
+    margin-left: -23%;
+  }
+  .celular {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .celularCompleto {
+    width: 56%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+/*--------Telefone--------*/
+
+.telefoneContainer{   
+  padding: 1px;
+  margin-top: -25%;
+  margin-left: 55%;
+}
+.telefone {
+  display: block;
+  margin-bottom: 8px;
+}
+.telefoneCompleto {
+  width: 155%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
