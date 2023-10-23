@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <form id="loginForm">
+  
+    <h3 class="Registro">Registro</h3>
+
+    <div class="nomeContainer">
+    <label class="nome" for="nome">Nome Completo:</label>
+    <input class="nomeCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="emailContainer">
+      <label class="email" for="nome">EMAIL:</label>
+      <input class="emailCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="RGContainer">
+      <label class="RG" for="nome">RG:</label>
+      <input class="RGCompleto" type="text" id="nome" name="nome" required>
+    </div>
+    
+    <div class="CPFContainer">
+      <label class="CPF" for="nome">CPF:</label>
+      <input class="CPFCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="celularContainer">
+      <label class="celular" for="nome">Celular:</label>
+      <input class="celularCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="telefoneContainer">
+      <label class="telefone" for="nome">Telefone:</label>
+      <input class="telefoneCompleto" type="text" id="nome" name="nome" required>
+    </div>
+
+
+  </form>
+
+  <script>
+    function enviarFormulario() {
+      var nome = document.getElementById('nome').value;
+      var senha = document.getElementById('senha').value;
+
+      // Criar um objeto JSON
+      var dados = {
+        nome: nome,
+        senha: senha
+      };
+
+      // Exibir no console
+      console.log(JSON.stringify(dados));
+    }
+  </script>
+
+</body>
+</html>
