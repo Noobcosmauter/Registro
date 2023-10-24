@@ -19,7 +19,7 @@ body {
   font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:black;
-  margin-top: -20%;
+  margin-top: -16%;
   margin-left: 34%;
 }
 
@@ -129,6 +129,72 @@ body {
   margin-bottom: 12px;
   box-sizing: border-box;
 }
+
+/*--------EMERGÊNCIA--------*/
+
+.emergencia{
+  font-size: 13px;
+  margin-top: 8%;
+  word-spacing: 1px;
+}
+
+.nomeEmerContainer{
+  padding: 1px;
+  margin-top: 10%;
+  margin-left: -23%;
+}
+  .nomeEmer {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .emerCompleto {
+    width: 120%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+/*--------CELULAR/TELEFONE--------*/
+.celuTeleContainer{
+    padding: 1px;
+    margin-top: 0%;
+    margin-left: -23%;
+  }
+.CelularTelefone {
+    display: block;
+    margin-bottom: 8px;
+  }
+.celularTelefoneCompleto {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
+/*--------LOCATÓRIO--------*/
+
+.locatorioAviso{
+  font-size: 13px;
+  margin-top: 8%;
+  word-spacing: 1px;
+}
+
+.LocatorioContainer{
+  padding: 1px;
+  margin-top: 10%;
+  margin-left: -23%;
+}
+  .PropeNome {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .FonePrope {
+    width: 120%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+
 
 
 
